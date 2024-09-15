@@ -1,0 +1,45 @@
+body {
+  display: block;
+  margin: 8px;
+  background-color: #880a08;
+}
+
+.Etch-a-Sketch h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #af8129;
+}
+
+#container {
+  width: 960px;
+  height: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  background-color: #cbcbdf;
+  color: #afb1ae;
+  border-color: #e81a09;
+}
+
+.Etch-a-Sketch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.grid-square {
+  box-sizing: border-box;
+  background-color: #cbcbdf;
+}
+
+#newGridBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #af8129;
+  border: none;
+  color: #880a08;
+  border-radius: 10px;
+}
